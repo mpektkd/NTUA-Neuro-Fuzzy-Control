@@ -10,8 +10,6 @@ prediction = torch.zeros((1000,3))
 err = torch.zeros((1000,3))
 for i in range (1000):
     prediction[i] = best_model(X[i])
-    if i ==3 :
-        print(prediction[3][0])
     unormalize_output(prediction[i], maximum,minimum, vector = 'true')
     err[i] = Y[i] - prediction[i]
 

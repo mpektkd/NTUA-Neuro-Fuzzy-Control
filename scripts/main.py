@@ -4,7 +4,7 @@ import scipy.io
 from torch.utils.data import DataLoader
 import torch.optim as optim
 
-mat_contents = scipy.io.loadmat("data_NN")
+mat_contents = scipy.io.loadmat("../data/data_NN")
 
 X_old = torch.zeros((3,1000),dtype=torch.float)
 Y_old = torch.zeros((3,1000),dtype=torch.float)
