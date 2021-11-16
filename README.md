@@ -1,4 +1,4 @@
-## DNN_Regression
+## DNN-Non-Linear-Control-Function
 
 With given data/data_NN.mat of a non-linear control system function, a dnn-regression model is trained to estimate the following function.
 
